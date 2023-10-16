@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_background2"
+    tools:context=".ui.profile.help_centre.HelpCentre">
+
+    <!--Privacy and Security Text Header-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:id="@+id/backBtnHelpCentre"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/round_back_white10_20"
+            android:padding="10sp"
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            tools:ignore="ContentDescription,RedundantDescriptionCheck" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/round_back_white10_20"
+            android:paddingStart="20dp"
+            android:paddingTop="10sp"
+            android:paddingEnd="20dp"
+            android:paddingBottom="10dp"
+            android:text="Help Centre"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+    </RelativeLayout>
+
+    <!--Divider-->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#057E93"/>
+
+    <!--Scroll View-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/round_back_white10_20"
+                android:orientation="vertical"
+                android:padding="10dp"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Welcome to the Book Talk Help Centre! We're here to assist you and provide answers to common questions. If you can't find what you're looking for, feel free to reach out to us at 20ucs162@lnmiit.ac.in"
+                    android:textColor="@color/white"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="Frequently Asked Questions (FAQs)"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,VisualLintLongText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="• How can I delete a review that I made on a book by mistake?"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,VisualLintLongText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:text="- Sorry, right now there is no option to delete a review once its been posted. But if you submit another review for the same book, then the last review will get updated."
+                    android:textColor="@color/white"
+                    tools:ignore="HardcodedText,VisualLintLongText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="• When I click on add to favourite option, or when I change my profile name or bio or profile pic, Why I sent back to Home Page?"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,VisualLintLongText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:text="- Yes, its a bug right now which I am trying to fix. Don't know why this problem is arising. Will update this thing in next update."
+                    android:textColor="@color/white"
+                    tools:ignore="HardcodedText,VisualLintLongText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="• How can I search for other users profile?"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,VisualLintLongText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:text="- Right now, I haven't implemented the method to directly search the users, in the future updates I will add this option in Explore section. But for now, you can visit other people profiles by checking the reviews of a book. If you find that someone else has posted a review for a book, you can click on users profile pic or username to go to his profile."
+                    android:textColor="@color/white"
+                    tools:ignore="HardcodedText,VisualLintLongText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="Troubleshooting Tips:"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,VisualLintLongText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:text="Encountering an issue? Check out these troubleshooting tips:"
+                    android:textColor="@color/white"
+                    tools:ignore="HardcodedText,VisualLintLongText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:text="• Ensure you have the latest version of the app."
+                    android:textColor="@color/white"
+                    tools:ignore="HardcodedText,VisualLintLongText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:text="• Clear your app's cache and data."
+                    android:textColor="@color/white"
+                    tools:ignore="HardcodedText,VisualLintLongText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:text="• Make sure you have a stable internet connection."
+                    android:textColor="@color/white"
+                    tools:ignore="HardcodedText,VisualLintLongText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="Feedback and Reporting:"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,VisualLintLongText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:text="We value your feedbacks! and also any problem that you encounter while using Book Talk. Please feel free to fill up the from provided to you in the Contact Us section to connect with us."
+                    android:textColor="@color/white"
+                    tools:ignore="HardcodedText,VisualLintLongText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="Thank you for being a part of the Book Talk community. Happy reading!"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,VisualLintLongText" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</LinearLayout>

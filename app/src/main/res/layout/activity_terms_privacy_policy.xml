@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_background2"
+    tools:context=".ui.profile.terms_privacy_policy.TermsPrivacyPolicy">
+
+    <!--Terms & Privacy Policy Text Header-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:id="@+id/backBtnPrivacyPolicy"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/round_back_white10_20"
+            android:padding="10sp"
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            tools:ignore="ContentDescription,RedundantDescriptionCheck" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/round_back_white10_20"
+            android:paddingStart="20dp"
+            android:paddingTop="10sp"
+            android:paddingEnd="20dp"
+            android:paddingBottom="10dp"
+            android:text="Terms &amp; Privacy Policy"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+    </RelativeLayout>
+
+    <!--Divider-->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#057E93"/>
+
+    <!--Scroll View-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/bookDetailsLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:background="@drawable/round_back_white10_20"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="This privacy policy will help you understand how our app uses and protects the data you provide to us when you use Book Talk.
+                \n\nWe reserve the right to change this policy at any given time, of which you will be promptly updated. If you want to make sure that you are up to date with the latest changes, we advice you to frequently update the app."
+                android:textColor="@color/white"
+                android:textSize="13sp"
+                tools:ignore="HardcodedText,VisualLintLongText"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="What User Data We Collect"
+                android:textColor="@color/white"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="When you are using our app, we may collect the following data:\n\n1) Your IP Address\n2) Your contact information and email address.\n3) Other information such as interests and preferences.\n4) Data profile regarding your online behaviour on our app."
+                android:textColor="@color/white"
+                android:textSize="13sp"
+                tools:ignore="HardcodedText"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Why We Collect Your Data"
+                android:textColor="@color/white"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="We are collecting your data for several reasons:\n\n1) To better understand your needs.\n2) To improve our services and products.\n3) To send you promotional emails containing the information we think you will find interesting.\n4) To contact you to fill out surveys and participate in other types of market research.\n5) To customize our app according to your online behaviour and personal preferences."
+                android:textColor="@color/white"
+                android:textSize="13sp"
+                tools:ignore="HardcodedText"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Safeguarding And Securing The Data"
+                android:textColor="@color/white"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="Book Talk is committed to securing your data and keeping it confidential. We have done all in its power to prevent data theft, unauthorized access, and disclosure by implementing the latest technologies and software, which help us safeguard all the information we collect online."
+                android:textColor="@color/white"
+                android:textSize="13sp"
+                tools:ignore="HardcodedText,VisualLintLongText"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Restricting The Collection Of Your Personal Data"
+                android:textColor="@color/white"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="At some point, you might wish to restrict the use and collection of your personal data. You can achieve this by doing the following:\n\nWhen you are filling out forms provided by us, make sure to check if there is a box which you can leave unchecked, if you don't want to disclose personal information.\n\nIf you have already agreed to share your information with us, feel free to contact us via email and we will be more than happy to change this for you.\n\nWe will not lease, sell or distribute your personal information to any third parties, unless we have your permission. We might do so if the law forces us. Your personal information will be used when we need to send you promotional materials if you agree to this privacy policy."
+                android:textColor="@color/white"
+                android:textSize="13sp"
+                tools:ignore="HardcodedText,VisualLintLongText"/>
+
+        </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_background2"
+    tools:context=".ui.profile.about_app.AboutApp">
+
+    <!--About App Text Header-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:id="@+id/backBtnAboutApp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/round_back_white10_20"
+            android:padding="10sp"
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            tools:ignore="ContentDescription,RedundantDescriptionCheck" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/round_back_white10_20"
+            android:paddingStart="20dp"
+            android:paddingTop="10sp"
+            android:paddingEnd="20dp"
+            android:paddingBottom="10dp"
+            android:text="About App"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+    </RelativeLayout>
+
+    <!--Divider-->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#057E93"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
+
+    <!--Scroll View-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:background="@drawable/round_back_white10_20"
+                android:orientation="vertical"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="App Name: Book Talk\n\nVersion: 1.0\n\nDescription:"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Welcome to Book Talk, your gateway to the world of knowledge within our college library. This app is a project inspired by our passion for books and our commitment to enhancing the college learning experience. Developed under the guidance of our librarian teacher, it's designed to make it easier for students to explore and engage with the vast collection of books available in our college library."
+                    android:textColor="@color/white"
+                    android:layout_marginTop="3dp"
+                    tools:ignore="HardcodedText,VisualLintLongText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Features:"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="15dp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,VisualLintLongText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1. Library Catalog: Explore a comprehensive catalog of books available in our college library. Find information about books, authors, and genres."
+                    android:textColor="@color/white"
+                    android:layout_marginTop="3dp"
+                    tools:ignore="HardcodedText,VisualLintLongText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2. Rating and Reviews: Share your thoughts and insights by posting ratings and reviews for books you've read. Help fellow students discover great reads."
+                    android:textColor="@color/white"
+                    android:layout_marginTop="3dp"
+                    tools:ignore="HardcodedText,VisualLintLongText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3. Profile Management: Customize your profile with a user-friendly interface. Manage your favorite books, keep track of your reading history, and connect with other book enthusiasts."
+                    android:textColor="@color/white"
+                    android:layout_marginTop="3dp"
+                    tools:ignore="HardcodedText,VisualLintLongText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4. New Arrivals: Stay informed about the latest additions to our library's collection. The home screen features a dynamic slider that highlights new arrivals, ensuring you never miss out on exciting reads."
+                    android:textColor="@color/white"
+                    android:layout_marginTop="3dp"
+                    tools:ignore="HardcodedText,VisualLintLongText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5. Suggest Books: The app allows users to suggest books they'd like to see added to the college library's collection. It's a collaborative effort to enhance our library's offerings."
+                    android:textColor="@color/white"
+                    android:layout_marginTop="3dp"
+                    tools:ignore="HardcodedText,VisualLintLongText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Privacy Policy and Terms of Service:"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="15dp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,VisualLintLongText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="For information about how we handle your data and the terms of use, please review our Privacy Policy and Terms of Service."
+                    android:textColor="@color/white"
+                    android:layout_marginTop="3dp"
+                    tools:ignore="HardcodedText,VisualLintLongText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="FAQs:"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:layout_marginTop="15dp"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Got questions about how to use Book Talk? Check out our FAQs to find answers to common queries."
+                    android:textColor="@color/white"
+                    android:layout_marginTop="3dp"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Credits:"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="15dp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,VisualLintLongText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="We would like to express our gratitude to everyone who contributed to the development of Book Talk. Special thanks to Mr. Giridhar Sir for inspiring this project and Dr. Imran Alam Sir under whose guidance we completed this project."
+                    android:textColor="@color/white"
+                    android:layout_marginTop="3dp"
+                    tools:ignore="HardcodedText,VisualLintLongText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Share Book Talk:"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:layout_marginTop="15dp"
+                    tools:ignore="HardcodedText,VisualLintLongText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Enjoy using Book Talk? Share it with your friends and fellow students to help them discover a world of books at your fingertips."
+                    android:textColor="@color/white"
+                    android:layout_marginTop="3dp"
+                    tools:ignore="HardcodedText,VisualLintLongText" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</LinearLayout>

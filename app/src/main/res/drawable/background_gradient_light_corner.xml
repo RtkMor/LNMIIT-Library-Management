@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Shape with corner radius -->
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="15dp" /> <!-- Corner radius -->
+        </shape>
+    </item>
+
+    <!-- Image background -->
+    <item android:drawable="@drawable/background_gradient_lights" />
+</layer-list>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/recReviewCard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="3dp"
+    android:background="@drawable/round_back_white10_20">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:layout_margin="3dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:cardCornerRadius="50dp">
+
+            <com.example.abcd.CustomCircularImageView
+                android:id="@+id/recImageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/profile"
+                tools:ignore="MissingClass,ImageContrastCheck" />
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:id="@+id/username_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@id/card_view">
+
+            <TextView
+                android:id="@+id/recUsername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,SmallSp" />
+
+            <RatingBar
+                android:id="@+id/recRatingBar"
+                style="@style/Widget.AppCompat.RatingBar.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:backgroundTint="@color/white"
+                android:layout_marginStart="5dp"
+                android:progressTint="#0f9d58"
+                android:stepSize="1" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/recReview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginStart="10dp"
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:layout_below="@id/username_rating"
+            android:layout_toEndOf="@id/card_view"
+            tools:ignore="HardcodedText,SmallSp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

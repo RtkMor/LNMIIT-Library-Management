@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin.AddNewBookActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        tools:ignore="ScrollViewSize">
+
+        <EditText
+            android:id="@+id/bookTitleEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Book Title"
+            android:textColor="@color/black"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            tools:ignore="Autofill,HardcodedText,TextFields" />
+
+        <EditText
+            android:id="@+id/bookAuthorEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Book Author"
+            android:textColor="@color/black"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            tools:ignore="Autofill,HardcodedText,TextFields" />
+
+        <EditText
+            android:id="@+id/bookIsbnEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Book Isbn Number"
+            android:textColor="@color/black"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            tools:ignore="Autofill,HardcodedText,TextFields" />
+
+        <EditText
+            android:id="@+id/bookCallNumberEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Book Call Number"
+            android:textColor="@color/black"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            tools:ignore="Autofill,HardcodedText,TextFields" />
+
+        <Button
+            android:id="@+id/addNewBookBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SUBMIT"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            tools:ignore="HardcodedText" />
+
+        <View
+            android:id="@+id/backBtnAddNewBook"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="20dp"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_baseline_arrow_back_black_24"/>
+
+    </LinearLayout>
+
+</ScrollView>
