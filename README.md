@@ -33,10 +33,10 @@ Developed a mobile application designed exclusively for college students to enha
 - Installation:
     1. Download the APK file.
     2. Install the app on your Android device.
-- Login Information: Please note that only college students can create an account and then log into the app. If you are not a college student, you won't be able to access the app. So, please use these credentials if you are not a college student:
-      - `Username: 20ucs162`
-      - `Email: 20ucs162@lnmiit.ac.in`
-      - `Password: 12345678`
+- Login Information: Please note that only college students can create an account and then log into the app. If you are not a college student, you won't be able to access the app. So, please use these credentials:
+    - `Username: 20ucs162`
+    - `Email: 20ucs162@lnmiit.ac.in`
+    - `Password: 12345678`
 - Note: Please don’t change password for this account, otherwise I need to forget the password and don’t know when I will check this issue. Also, if you are not able to log in using the provided credentials, please mail me at the email address provided just above. Feel free to change all other information.
 
 ## Technologies Used
