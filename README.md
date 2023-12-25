@@ -10,11 +10,11 @@ Developed a mobile application designed exclusively for college students to enha
 - Google Books API Integration: Retrieve book images and descriptions using ISBN numbers from the Google Books API.
 - Home Screen Sliding Window: Stay updated with new arrivals and featured books in the library.
 - Settings: Customize your experience by:
-    ` Enabling Night Mode.
-    ` Changing your password.
-    ` Updating your phone number.
-    ` Uploading a profile image.
-    ` Editing your name and bio
+    - ` Enabling Night Mode.`
+    - ` Changing your password.`
+    - ` Updating your phone number.`
+    - ` Uploading a profile image.`
+    - ` Editing your name and bio`
 
 ## Future Updates :-
 - Cloud Messaging: Stay connected with important announcements and updates from the college library through cloud messaging.
@@ -22,11 +22,11 @@ Developed a mobile application designed exclusively for college students to enha
 
 ## Admin Login
 - Admin can perform crud operations in the database directly through the application:
-    i. Add new book
-    ii. Delete existing book data
-    iii. Edit exising book data
-    iv. Check contact forms informations filled by the users
-    v. Change new arrivals
+    - `Add new book`
+    - `Delete existing book data`
+    - `Edit exising book data`
+    - `Check contact forms informations filled by the users`
+    - `Change new arrivals`
 
 ## Getting Started :-
 - To get started with Book Talk, follow these steps:
