@@ -28,11 +28,11 @@ Developed a mobile application designed exclusively for college students to enha
     - `Check contact forms informations filled by the users`
     - `Change new arrivals`
 
-## Getting Started :-
-- To get started with Book Talk, follow these steps:
-- Installation:
-    1. Download the APK file.
-    2. Install the app on your Android device.
+## Installation
+- Download the APK file.
+- Install the app on your Android device.
+- You can use this google drive link to get the apk:
+- https://drive.google.com/drive/folders/1hLtip7cB-bcUVLSUl9Is7C21UW_Mlun-?usp=sharing
 - Login Information: Please note that only college students can create an account and then log into the app. If you are not a college student, you won't be able to access the app. So, please use these credentials:
     - `Username: 20ucs162`
     - `Email: 20ucs162@lnmiit.ac.in`
