@@ -10,11 +10,11 @@ Developed a mobile application designed exclusively for college students to enha
 - Google Books API Integration: Retrieve book images and descriptions using ISBN numbers from the Google Books API.
 - Home Screen Sliding Window: Stay updated with new arrivals and featured books in the library.
 - Settings: Customize your experience by:
-    $ Enabling Night Mode.
-    $ Changing your password.
-    -- Updating your phone number.
-    -- Uploading a profile image.
-    -- Editing your name and bio
+    ` Enabling Night Mode.
+    ` Changing your password.
+    ` Updating your phone number.
+    ` Uploading a profile image.
+    ` Editing your name and bio
 
 ## Future Updates :-
 - Cloud Messaging: Stay connected with important announcements and updates from the college library through cloud messaging.
